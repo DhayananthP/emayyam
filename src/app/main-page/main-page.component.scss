@@ -1,0 +1,183 @@
+$Voilet: #bc61cc;
+
+.title-bar {
+  background-color: white;
+  padding: 0.5rem 3rem;
+  .nav-item {
+    padding: 0 1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    a {
+      color: #343434;
+    }
+  }
+}
+
+.title-page {
+  min-height: 40rem;
+  margin: 3rem 0 7rem 0;
+  padding: 0 3rem;
+  position: relative;
+}
+.back-ground {
+  background-image: url("../../assets/main-section-back.png");
+  position: absolute;
+  opacity: 0.2;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.arrow-down {
+  min-height: 3rem;
+  margin: auto;
+  position: relative;
+}
+.main-title-section {
+  position: relative;
+  z-index: 5;
+  .header {
+    max-width: 50rem;
+    font-size: 2.8rem;
+    font-weight: 600;
+  }
+  .second-header {
+    max-width: 56rem;
+  }
+  button {
+    background-color: $Voilet;
+    color: white;
+  }
+}
+
+.heading-one {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.8rem;
+}
+.content-one {
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 2rem 10rem;
+}
+.card-md {
+  .card {
+    border-radius: 1rem;
+    box-shadow: 0px 0px 16px #0000001c;
+    min-width: 25rem;
+    min-height: 18rem;
+    max-height: 25rem;
+    img {
+      align-self: center;
+      max-width: 9rem;
+      padding-top: 3rem;
+    }
+  }
+}
+
+.view-all-button {
+  padding: 5rem 0rem;
+  text-align: center;
+  button {
+    color: $Voilet;
+    border-color: $Voilet;
+    background-color: white;
+    &:hover {
+      background-color: $Voilet;
+      color: white;
+    }
+  }
+}
+
+.choose-reason {
+  font-size: 2rem;
+  padding: 1rem 3rem;
+  div {
+    padding: 2rem;
+  }
+}
+
+.support {
+  min-height: 10rem;
+  padding: 2.5rem;
+  background-color: rgb(227, 245, 220);
+  text-align: left;
+  .heading-two {
+    font-size: 2rem;
+  }
+  .content-two {
+    font-size: 1rem;
+  }
+  button {
+    float: right;
+    font-size: 1.4rem;
+    background-color: #41cb12;
+  }
+}
+
+.contact-form {
+  border: none;
+  input {
+    &:focus {
+      box-shadow: 0px 5px 16px #00000033;
+      border-color: none;
+    }
+  }
+  button {
+    background-color: $Voilet;
+    color: white;
+    border-color: $Voilet;
+  }
+}
+
+.contact-background {
+  background-image: url("../../assets/business-computer.png");
+  opacity: 0.6;
+  border-radius: 1rem;
+}
+
+.contact-details {
+  background-color: #f5f5f5;
+  padding: 4rem 4rem 0 4rem;
+  img {
+    align-self: flex-start;
+  }
+  .address {
+    h6 {
+      font-weight: 600;
+      &::before {
+        content: url("../../assets/point.svg");
+        padding: 0 1rem;
+      }
+    }
+    p {
+      margin: 0 3.4rem;
+    }
+  }
+  .mobile {
+    h6 {
+      &::before {
+        content: url("../../assets/phone.svg");
+        padding: 0 1rem;
+      }
+    }
+  }
+  .email {
+    h6 {
+      &::before {
+        content: url("../../assets/email-con.svg");
+        padding: 0 1rem;
+      }
+    }
+  }
+}
+
+.services {
+  h6 {
+    font-weight: 600;
+  }
+  p {
+    font-size: 80%;
+  }
+}
